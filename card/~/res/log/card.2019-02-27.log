@@ -1,0 +1,101 @@
+2019-02-27 09:59:22,552 INFO  [main] CardApplication: Starting CardApplication on liujunchideiMac.local with PID 78772 (/Users/liujc/IdeaProjects/card/target/classes started by liujc in /Users/liujc/IdeaProjects/card)
+2019-02-27 09:59:22,556 DEBUG [main] CardApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-02-27 09:59:22,556 INFO  [main] CardApplication: No active profile set, falling back to default profiles: default
+2019-02-27 09:59:24,079 DEBUG [main] InternalLoggerFactory: Using SLF4J as the default logging framework
+2019-02-27 09:59:24,086 DEBUG [main] DefaultClientResources: -Dio.netty.eventLoopThreads: 4
+2019-02-27 09:59:24,096 DEBUG [main] DefaultEventLoopGroupProvider: Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-02-27 09:59:24,125 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.level: simple
+2019-02-27 09:59:24,126 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.targetRecords: 4
+2019-02-27 09:59:24,167 DEBUG [main] PlatformDependent: Platform: MacOS
+2019-02-27 09:59:24,170 DEBUG [main] PlatformDependent0: -Dio.netty.noUnsafe: false
+2019-02-27 09:59:24,178 DEBUG [main] PlatformDependent0: Java version: 8
+2019-02-27 09:59:24,179 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+2019-02-27 09:59:24,180 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+2019-02-27 09:59:24,182 DEBUG [main] PlatformDependent0: java.nio.Buffer.address: available
+2019-02-27 09:59:24,186 DEBUG [main] PlatformDependent0: direct buffer constructor: available
+2019-02-27 09:59:24,188 DEBUG [main] PlatformDependent0: java.nio.Bits.unaligned: available, true
+2019-02-27 09:59:24,189 DEBUG [main] PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-02-27 09:59:24,190 DEBUG [main] PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+2019-02-27 09:59:24,203 DEBUG [main] PlatformDependent: sun.misc.Unsafe: available
+2019-02-27 09:59:24,203 DEBUG [main] PlatformDependent: -Dio.netty.tmpdir: /var/folders/y5/j716xz0s6x79t7ctcpjdwc1m0000gn/T (java.io.tmpdir)
+2019-02-27 09:59:24,204 DEBUG [main] PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-02-27 09:59:24,207 DEBUG [main] PlatformDependent: -Dio.netty.maxDirectMemory: 3817865216 bytes
+2019-02-27 09:59:24,207 DEBUG [main] PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-02-27 09:59:24,209 DEBUG [main] CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+2019-02-27 09:59:24,210 DEBUG [main] PlatformDependent: -Dio.netty.noPreferDirect: false
+2019-02-27 09:59:24,211 DEBUG [main] ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5184a1ea
+2019-02-27 09:59:24,223 DEBUG [main] PlatformDependent: org.jctools-core.MpscChunkedArrayQueue: available
+2019-02-27 09:59:24,235 DEBUG [main] Loggers$LoggerFactory: Using Slf4j logging framework
+2019-02-27 09:59:24,344 DEBUG [main] UnsafeSupport: Starting UnsafeSupport init in Java 1.8
+2019-02-27 09:59:24,345 DEBUG [main] UnsafeSupport: Unsafe is available
+2019-02-27 09:59:24,353 DEBUG [main] DefaultClientResources: LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-02-27 09:59:24,436 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 8
+2019-02-27 09:59:24,437 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 8
+2019-02-27 09:59:24,437 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+2019-02-27 09:59:24,437 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+2019-02-27 09:59:24,438 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+2019-02-27 09:59:24,438 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+2019-02-27 09:59:24,438 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+2019-02-27 09:59:24,439 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+2019-02-27 09:59:24,439 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-02-27 09:59:24,439 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-02-27 09:59:24,439 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+2019-02-27 09:59:24,440 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-02-27 09:59:24,443 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-02-27 09:59:24,444 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-02-27 09:59:24,526 DEBUG [main] JSerialComm: serial connecting...
+2019-02-27 09:59:24,530 DEBUG [main] JSerialComm: Bluetooth-Incoming-Port
+2019-02-27 09:59:24,531 DEBUG [main] JSerialComm: Bluetooth-Incoming-Port (Dial-In)
+2019-02-27 09:59:24,531 DEBUG [main] JSerialComm: USB-Serial Controller D
+2019-02-27 09:59:24,531 DEBUG [main] JSerialComm: USB-Serial Controller D (Dial-In)
+2019-02-27 10:07:12,514 INFO  [main] CardApplication: Starting CardApplication on liujunchideiMac.local with PID 79222 (/Users/liujc/IdeaProjects/card/target/classes started by liujc in /Users/liujc/IdeaProjects/card)
+2019-02-27 10:07:12,518 DEBUG [main] CardApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-02-27 10:07:12,519 INFO  [main] CardApplication: No active profile set, falling back to default profiles: default
+2019-02-27 10:07:13,688 DEBUG [main] InternalLoggerFactory: Using SLF4J as the default logging framework
+2019-02-27 10:07:13,696 DEBUG [main] DefaultClientResources: -Dio.netty.eventLoopThreads: 4
+2019-02-27 10:07:13,703 DEBUG [main] DefaultEventLoopGroupProvider: Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-02-27 10:07:13,727 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.level: simple
+2019-02-27 10:07:13,727 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.targetRecords: 4
+2019-02-27 10:07:13,746 DEBUG [main] PlatformDependent: Platform: MacOS
+2019-02-27 10:07:13,748 DEBUG [main] PlatformDependent0: -Dio.netty.noUnsafe: false
+2019-02-27 10:07:13,748 DEBUG [main] PlatformDependent0: Java version: 8
+2019-02-27 10:07:13,749 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+2019-02-27 10:07:13,750 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+2019-02-27 10:07:13,751 DEBUG [main] PlatformDependent0: java.nio.Buffer.address: available
+2019-02-27 10:07:13,752 DEBUG [main] PlatformDependent0: direct buffer constructor: available
+2019-02-27 10:07:13,754 DEBUG [main] PlatformDependent0: java.nio.Bits.unaligned: available, true
+2019-02-27 10:07:13,755 DEBUG [main] PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-02-27 10:07:13,755 DEBUG [main] PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+2019-02-27 10:07:13,756 DEBUG [main] PlatformDependent: sun.misc.Unsafe: available
+2019-02-27 10:07:13,756 DEBUG [main] PlatformDependent: -Dio.netty.tmpdir: /var/folders/y5/j716xz0s6x79t7ctcpjdwc1m0000gn/T (java.io.tmpdir)
+2019-02-27 10:07:13,756 DEBUG [main] PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-02-27 10:07:13,757 DEBUG [main] PlatformDependent: -Dio.netty.maxDirectMemory: 3817865216 bytes
+2019-02-27 10:07:13,757 DEBUG [main] PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-02-27 10:07:13,760 DEBUG [main] CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+2019-02-27 10:07:13,761 DEBUG [main] PlatformDependent: -Dio.netty.noPreferDirect: false
+2019-02-27 10:07:13,761 DEBUG [main] ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@40d02734
+2019-02-27 10:07:13,768 DEBUG [main] PlatformDependent: org.jctools-core.MpscChunkedArrayQueue: available
+2019-02-27 10:07:13,776 DEBUG [main] Loggers$LoggerFactory: Using Slf4j logging framework
+2019-02-27 10:07:13,841 DEBUG [main] UnsafeSupport: Starting UnsafeSupport init in Java 1.8
+2019-02-27 10:07:13,842 DEBUG [main] UnsafeSupport: Unsafe is available
+2019-02-27 10:07:13,848 DEBUG [main] DefaultClientResources: LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-02-27 10:07:13,896 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 8
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 8
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+2019-02-27 10:07:13,897 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-02-27 10:07:13,900 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-02-27 10:07:13,900 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-02-27 10:07:13,962 DEBUG [main] JSerialComm: serial connecting...
+2019-02-27 10:07:13,968 DEBUG [main] JSerialComm: Bluetooth-Incoming-Port
+2019-02-27 10:07:13,969 DEBUG [main] JSerialComm: Bluetooth-Incoming-Port (Dial-In)
+2019-02-27 10:07:13,969 DEBUG [main] JSerialComm: USB-Serial Controller D
+2019-02-27 10:07:13,969 DEBUG [main] JSerialComm: connecting serial is USB-Serial Controller D
+2019-02-27 10:07:13,969 DEBUG [main] JSerialComm: USB-Serial Controller D (Dial-In)

@@ -1,0 +1,15 @@
+version: "2"
+services:
+  domoticz:
+    image: linuxserver/domoticz
+    container_name: domoticz
+    environment:
+    - PUID=1001
+    - PGID=1001
+    - TZ=Europe/London
+    ports:
+    - 8080:8080
+    - 6144:6144
+    - 1443:1443
+    devices:
+    - /dev/tty.usbserial:/dev/tty.usbserial

@@ -1,0 +1,1983 @@
+2019-02-25 16:50:10,239 INFO  [main] CardApplication: Starting CardApplication on liujunchideiMac.local with PID 67600 (/Users/liujc/IdeaProjects/card/target/classes started by liujc in /Users/liujc/IdeaProjects/card)
+2019-02-25 16:50:10,245 DEBUG [main] CardApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-02-25 16:50:10,246 INFO  [main] CardApplication: No active profile set, falling back to default profiles: default
+2019-02-25 16:50:10,722 DEBUG [main] InternalLoggerFactory: Using SLF4J as the default logging framework
+2019-02-25 16:50:10,726 DEBUG [main] DefaultClientResources: -Dio.netty.eventLoopThreads: 4
+2019-02-25 16:50:10,731 DEBUG [main] DefaultEventLoopGroupProvider: Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-02-25 16:50:10,750 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.level: simple
+2019-02-25 16:50:10,751 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.targetRecords: 4
+2019-02-25 16:50:10,765 DEBUG [main] PlatformDependent: Platform: MacOS
+2019-02-25 16:50:10,767 DEBUG [main] PlatformDependent0: -Dio.netty.noUnsafe: false
+2019-02-25 16:50:10,767 DEBUG [main] PlatformDependent0: Java version: 8
+2019-02-25 16:50:10,768 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+2019-02-25 16:50:10,769 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+2019-02-25 16:50:10,770 DEBUG [main] PlatformDependent0: java.nio.Buffer.address: available
+2019-02-25 16:50:10,777 DEBUG [main] PlatformDependent0: direct buffer constructor: available
+2019-02-25 16:50:10,780 DEBUG [main] PlatformDependent0: java.nio.Bits.unaligned: available, true
+2019-02-25 16:50:10,780 DEBUG [main] PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-02-25 16:50:10,781 DEBUG [main] PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+2019-02-25 16:50:10,781 DEBUG [main] PlatformDependent: sun.misc.Unsafe: available
+2019-02-25 16:50:10,782 DEBUG [main] PlatformDependent: -Dio.netty.tmpdir: /var/folders/y5/j716xz0s6x79t7ctcpjdwc1m0000gn/T (java.io.tmpdir)
+2019-02-25 16:50:10,783 DEBUG [main] PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-02-25 16:50:10,784 DEBUG [main] PlatformDependent: -Dio.netty.maxDirectMemory: 3817865216 bytes
+2019-02-25 16:50:10,785 DEBUG [main] PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-02-25 16:50:10,788 DEBUG [main] CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+2019-02-25 16:50:10,788 DEBUG [main] PlatformDependent: -Dio.netty.noPreferDirect: false
+2019-02-25 16:50:10,789 DEBUG [main] ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@648b42c2
+2019-02-25 16:50:10,794 DEBUG [main] PlatformDependent: org.jctools-core.MpscChunkedArrayQueue: available
+2019-02-25 16:50:10,801 DEBUG [main] Loggers$LoggerFactory: Using Slf4j logging framework
+2019-02-25 16:50:10,925 DEBUG [main] UnsafeSupport: Starting UnsafeSupport init in Java 1.8
+2019-02-25 16:50:10,926 DEBUG [main] UnsafeSupport: Unsafe is available
+2019-02-25 16:50:10,930 DEBUG [main] DefaultClientResources: LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-02-25 16:50:10,979 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 8
+2019-02-25 16:50:10,979 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 8
+2019-02-25 16:50:10,980 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+2019-02-25 16:50:10,980 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+2019-02-25 16:50:10,980 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+2019-02-25 16:50:10,980 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+2019-02-25 16:50:10,980 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+2019-02-25 16:50:10,980 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+2019-02-25 16:50:10,981 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-02-25 16:50:10,981 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-02-25 16:50:10,981 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+2019-02-25 16:50:10,981 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-02-25 16:50:10,983 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-02-25 16:50:10,984 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-02-25 16:50:11,031 WARN  [main] AnnotationConfigApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'container' defined in class path resource [cn/videon/card/config/RedisMessageConfiguration.class]: Unsatisfied dependency expressed through method 'container' parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.listener.adapter.MessageListenerAdapter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-02-25 16:50:11,035 DEBUG [main] RedisClient: Initiate shutdown ([100, 100, MILLISECONDS], [100, 100, MILLISECONDS], {})
+2019-02-25 16:50:11,041 DEBUG [main] DefaultClientResources: Initiate shutdown ([0, 2, SECONDS], [0, 2, SECONDS], {})
+2019-02-25 16:50:11,042 DEBUG [main] DefaultEventLoopGroupProvider: Initiate shutdown ([0, 2, SECONDS], [0, 2, SECONDS], {})
+2019-02-25 16:50:11,158 ERROR [main] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method container in cn.videon.card.config.RedisMessageConfiguration required a bean of type 'org.springframework.data.redis.listener.adapter.MessageListenerAdapter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.listener.adapter.MessageListenerAdapter' in your configuration.
+
+2019-02-25 16:53:55,437 INFO  [main] CardApplication: Starting CardApplication on liujunchideiMac.local with PID 67639 (/Users/liujc/IdeaProjects/card/target/classes started by liujc in /Users/liujc/IdeaProjects/card)
+2019-02-25 16:53:55,439 DEBUG [main] CardApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-02-25 16:53:55,440 INFO  [main] CardApplication: No active profile set, falling back to default profiles: default
+2019-02-25 16:53:56,033 DEBUG [main] InternalLoggerFactory: Using SLF4J as the default logging framework
+2019-02-25 16:53:56,039 DEBUG [main] DefaultClientResources: -Dio.netty.eventLoopThreads: 4
+2019-02-25 16:53:56,045 DEBUG [main] DefaultEventLoopGroupProvider: Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-02-25 16:53:56,067 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.level: simple
+2019-02-25 16:53:56,068 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.targetRecords: 4
+2019-02-25 16:53:56,080 DEBUG [main] PlatformDependent: Platform: MacOS
+2019-02-25 16:53:56,081 DEBUG [main] PlatformDependent0: -Dio.netty.noUnsafe: false
+2019-02-25 16:53:56,085 DEBUG [main] PlatformDependent0: Java version: 8
+2019-02-25 16:53:56,087 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+2019-02-25 16:53:56,088 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+2019-02-25 16:53:56,089 DEBUG [main] PlatformDependent0: java.nio.Buffer.address: available
+2019-02-25 16:53:56,091 DEBUG [main] PlatformDependent0: direct buffer constructor: available
+2019-02-25 16:53:56,092 DEBUG [main] PlatformDependent0: java.nio.Bits.unaligned: available, true
+2019-02-25 16:53:56,093 DEBUG [main] PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-02-25 16:53:56,093 DEBUG [main] PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+2019-02-25 16:53:56,094 DEBUG [main] PlatformDependent: sun.misc.Unsafe: available
+2019-02-25 16:53:56,094 DEBUG [main] PlatformDependent: -Dio.netty.tmpdir: /var/folders/y5/j716xz0s6x79t7ctcpjdwc1m0000gn/T (java.io.tmpdir)
+2019-02-25 16:53:56,095 DEBUG [main] PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-02-25 16:53:56,096 DEBUG [main] PlatformDependent: -Dio.netty.maxDirectMemory: 3817865216 bytes
+2019-02-25 16:53:56,096 DEBUG [main] PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-02-25 16:53:56,097 DEBUG [main] CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+2019-02-25 16:53:56,098 DEBUG [main] PlatformDependent: -Dio.netty.noPreferDirect: false
+2019-02-25 16:53:56,098 DEBUG [main] ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@302e53de
+2019-02-25 16:53:56,112 DEBUG [main] PlatformDependent: org.jctools-core.MpscChunkedArrayQueue: available
+2019-02-25 16:53:56,122 DEBUG [main] Loggers$LoggerFactory: Using Slf4j logging framework
+2019-02-25 16:53:56,193 DEBUG [main] UnsafeSupport: Starting UnsafeSupport init in Java 1.8
+2019-02-25 16:53:56,196 DEBUG [main] UnsafeSupport: Unsafe is available
+2019-02-25 16:53:56,203 DEBUG [main] DefaultClientResources: LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-02-25 16:53:56,249 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 8
+2019-02-25 16:53:56,249 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 8
+2019-02-25 16:53:56,249 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+2019-02-25 16:53:56,250 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+2019-02-25 16:53:56,250 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+2019-02-25 16:53:56,250 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+2019-02-25 16:53:56,250 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+2019-02-25 16:53:56,250 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+2019-02-25 16:53:56,250 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-02-25 16:53:56,250 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-02-25 16:53:56,251 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+2019-02-25 16:53:56,251 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-02-25 16:53:56,253 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-02-25 16:53:56,253 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-02-25 16:53:56,302 WARN  [main] AnnotationConfigApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'container' defined in class path resource [cn/videon/card/config/RedisMessageConfiguration.class]: Unsatisfied dependency expressed through method 'container' parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.listener.adapter.MessageListenerAdapter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-02-25 16:53:56,316 DEBUG [main] RedisClient: Initiate shutdown ([100, 100, MILLISECONDS], [100, 100, MILLISECONDS], {})
+2019-02-25 16:53:56,332 DEBUG [main] DefaultClientResources: Initiate shutdown ([0, 2, SECONDS], [0, 2, SECONDS], {})
+2019-02-25 16:53:56,333 DEBUG [main] DefaultEventLoopGroupProvider: Initiate shutdown ([0, 2, SECONDS], [0, 2, SECONDS], {})
+2019-02-25 16:53:56,432 ERROR [main] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method container in cn.videon.card.config.RedisMessageConfiguration required a bean of type 'org.springframework.data.redis.listener.adapter.MessageListenerAdapter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.listener.adapter.MessageListenerAdapter' in your configuration.
+
+2019-02-25 16:55:49,716 INFO  [main] CardApplication: Starting CardApplication on liujunchideiMac.local with PID 67677 (/Users/liujc/IdeaProjects/card/target/classes started by liujc in /Users/liujc/IdeaProjects/card)
+2019-02-25 16:55:49,731 DEBUG [main] CardApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-02-25 16:55:49,732 INFO  [main] CardApplication: No active profile set, falling back to default profiles: default
+2019-02-25 16:55:50,260 DEBUG [main] InternalLoggerFactory: Using SLF4J as the default logging framework
+2019-02-25 16:55:50,263 DEBUG [main] DefaultClientResources: -Dio.netty.eventLoopThreads: 4
+2019-02-25 16:55:50,270 DEBUG [main] DefaultEventLoopGroupProvider: Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-02-25 16:55:50,292 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.level: simple
+2019-02-25 16:55:50,293 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.targetRecords: 4
+2019-02-25 16:55:50,306 DEBUG [main] PlatformDependent: Platform: MacOS
+2019-02-25 16:55:50,307 DEBUG [main] PlatformDependent0: -Dio.netty.noUnsafe: false
+2019-02-25 16:55:50,308 DEBUG [main] PlatformDependent0: Java version: 8
+2019-02-25 16:55:50,308 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+2019-02-25 16:55:50,309 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+2019-02-25 16:55:50,310 DEBUG [main] PlatformDependent0: java.nio.Buffer.address: available
+2019-02-25 16:55:50,311 DEBUG [main] PlatformDependent0: direct buffer constructor: available
+2019-02-25 16:55:50,312 DEBUG [main] PlatformDependent0: java.nio.Bits.unaligned: available, true
+2019-02-25 16:55:50,312 DEBUG [main] PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-02-25 16:55:50,312 DEBUG [main] PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+2019-02-25 16:55:50,312 DEBUG [main] PlatformDependent: sun.misc.Unsafe: available
+2019-02-25 16:55:50,313 DEBUG [main] PlatformDependent: -Dio.netty.tmpdir: /var/folders/y5/j716xz0s6x79t7ctcpjdwc1m0000gn/T (java.io.tmpdir)
+2019-02-25 16:55:50,313 DEBUG [main] PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-02-25 16:55:50,314 DEBUG [main] PlatformDependent: -Dio.netty.maxDirectMemory: 3817865216 bytes
+2019-02-25 16:55:50,315 DEBUG [main] PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-02-25 16:55:50,316 DEBUG [main] CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+2019-02-25 16:55:50,317 DEBUG [main] PlatformDependent: -Dio.netty.noPreferDirect: false
+2019-02-25 16:55:50,317 DEBUG [main] ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@66a3809d
+2019-02-25 16:55:50,323 DEBUG [main] PlatformDependent: org.jctools-core.MpscChunkedArrayQueue: available
+2019-02-25 16:55:50,332 DEBUG [main] Loggers$LoggerFactory: Using Slf4j logging framework
+2019-02-25 16:55:50,398 DEBUG [main] UnsafeSupport: Starting UnsafeSupport init in Java 1.8
+2019-02-25 16:55:50,399 DEBUG [main] UnsafeSupport: Unsafe is available
+2019-02-25 16:55:50,403 DEBUG [main] DefaultClientResources: LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-02-25 16:55:50,460 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 8
+2019-02-25 16:55:50,460 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 8
+2019-02-25 16:55:50,461 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+2019-02-25 16:55:50,461 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+2019-02-25 16:55:50,461 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+2019-02-25 16:55:50,461 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+2019-02-25 16:55:50,461 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+2019-02-25 16:55:50,462 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+2019-02-25 16:55:50,462 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-02-25 16:55:50,462 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-02-25 16:55:50,462 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+2019-02-25 16:55:50,462 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-02-25 16:55:50,464 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-02-25 16:55:50,465 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-02-25 16:55:50,534 WARN  [main] AnnotationConfigApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'container' defined in class path resource [cn/videon/card/config/RedisMessageConfiguration.class]: Unsatisfied dependency expressed through method 'container' parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.listener.adapter.MessageListenerAdapter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-02-25 16:55:50,538 DEBUG [main] RedisClient: Initiate shutdown ([100, 100, MILLISECONDS], [100, 100, MILLISECONDS], {})
+2019-02-25 16:55:50,546 DEBUG [main] DefaultClientResources: Initiate shutdown ([0, 2, SECONDS], [0, 2, SECONDS], {})
+2019-02-25 16:55:50,548 DEBUG [main] DefaultEventLoopGroupProvider: Initiate shutdown ([0, 2, SECONDS], [0, 2, SECONDS], {})
+2019-02-25 16:55:50,635 ERROR [main] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method container in cn.videon.card.config.RedisMessageConfiguration required a bean of type 'org.springframework.data.redis.listener.adapter.MessageListenerAdapter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.listener.adapter.MessageListenerAdapter' in your configuration.
+
+2019-02-25 16:57:37,333 INFO  [main] CardApplication: Starting CardApplication on liujunchideiMac.local with PID 67696 (/Users/liujc/IdeaProjects/card/target/classes started by liujc in /Users/liujc/IdeaProjects/card)
+2019-02-25 16:57:37,335 DEBUG [main] CardApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-02-25 16:57:37,335 INFO  [main] CardApplication: No active profile set, falling back to default profiles: default
+2019-02-25 16:57:37,831 DEBUG [main] InternalLoggerFactory: Using SLF4J as the default logging framework
+2019-02-25 16:57:37,834 DEBUG [main] DefaultClientResources: -Dio.netty.eventLoopThreads: 4
+2019-02-25 16:57:37,839 DEBUG [main] DefaultEventLoopGroupProvider: Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-02-25 16:57:37,860 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.level: simple
+2019-02-25 16:57:37,861 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.targetRecords: 4
+2019-02-25 16:57:37,876 DEBUG [main] PlatformDependent: Platform: MacOS
+2019-02-25 16:57:37,878 DEBUG [main] PlatformDependent0: -Dio.netty.noUnsafe: false
+2019-02-25 16:57:37,881 DEBUG [main] PlatformDependent0: Java version: 8
+2019-02-25 16:57:37,883 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+2019-02-25 16:57:37,885 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+2019-02-25 16:57:37,887 DEBUG [main] PlatformDependent0: java.nio.Buffer.address: available
+2019-02-25 16:57:37,887 DEBUG [main] PlatformDependent0: direct buffer constructor: available
+2019-02-25 16:57:37,888 DEBUG [main] PlatformDependent0: java.nio.Bits.unaligned: available, true
+2019-02-25 16:57:37,889 DEBUG [main] PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-02-25 16:57:37,891 DEBUG [main] PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+2019-02-25 16:57:37,891 DEBUG [main] PlatformDependent: sun.misc.Unsafe: available
+2019-02-25 16:57:37,892 DEBUG [main] PlatformDependent: -Dio.netty.tmpdir: /var/folders/y5/j716xz0s6x79t7ctcpjdwc1m0000gn/T (java.io.tmpdir)
+2019-02-25 16:57:37,892 DEBUG [main] PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-02-25 16:57:37,893 DEBUG [main] PlatformDependent: -Dio.netty.maxDirectMemory: 3817865216 bytes
+2019-02-25 16:57:37,893 DEBUG [main] PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-02-25 16:57:37,894 DEBUG [main] CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+2019-02-25 16:57:37,894 DEBUG [main] PlatformDependent: -Dio.netty.noPreferDirect: false
+2019-02-25 16:57:37,895 DEBUG [main] ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5f41a944
+2019-02-25 16:57:37,900 DEBUG [main] PlatformDependent: org.jctools-core.MpscChunkedArrayQueue: available
+2019-02-25 16:57:37,907 DEBUG [main] Loggers$LoggerFactory: Using Slf4j logging framework
+2019-02-25 16:57:37,965 DEBUG [main] UnsafeSupport: Starting UnsafeSupport init in Java 1.8
+2019-02-25 16:57:37,966 DEBUG [main] UnsafeSupport: Unsafe is available
+2019-02-25 16:57:37,971 DEBUG [main] DefaultClientResources: LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-02-25 16:57:38,033 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 8
+2019-02-25 16:57:38,034 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 8
+2019-02-25 16:57:38,040 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+2019-02-25 16:57:38,041 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+2019-02-25 16:57:38,042 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+2019-02-25 16:57:38,042 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+2019-02-25 16:57:38,046 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+2019-02-25 16:57:38,047 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+2019-02-25 16:57:38,047 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-02-25 16:57:38,047 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-02-25 16:57:38,048 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+2019-02-25 16:57:38,049 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-02-25 16:57:38,051 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-02-25 16:57:38,051 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-02-25 16:57:38,362 DEBUG [container-1] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:57:38,465 INFO  [container-1] EpollProvider: Starting without optional epoll library
+2019-02-25 16:57:38,466 INFO  [container-1] KqueueProvider: Starting without optional kqueue library
+2019-02-25 16:57:38,467 DEBUG [container-1] DefaultEventLoopGroupProvider: Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2019-02-25 16:57:38,468 DEBUG [container-1] DefaultEventLoopGroupProvider: Creating executor io.netty.channel.nio.NioEventLoopGroup
+2019-02-25 16:57:38,468 DEBUG [container-1] MultithreadEventLoopGroup: -Dio.netty.eventLoopThreads: 8
+2019-02-25 16:57:38,472 DEBUG [container-1] NioEventLoop: -Dio.netty.noKeySetOptimization: false
+2019-02-25 16:57:38,472 DEBUG [container-1] NioEventLoop: -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-02-25 16:57:38,477 DEBUG [container-1] DefaultEventLoopGroupProvider: Adding reference to io.netty.channel.nio.NioEventLoopGroup@5123a1a5, existing ref count 0
+2019-02-25 16:57:38,488 DEBUG [container-1] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:57:38,488 DEBUG [container-1] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:57:40,921 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 16:57:43,370 INFO  [main] CardApplication: Started CardApplication in 26.396 seconds (JVM running for 29.825)
+2019-02-25 16:57:43,504 DEBUG [container-1] DefaultChannelId: -Dio.netty.processId: 67696 (auto-detected)
+2019-02-25 16:57:43,506 DEBUG [container-1] NetUtil: -Djava.net.preferIPv4Stack: false
+2019-02-25 16:57:43,506 DEBUG [container-1] NetUtil: -Djava.net.preferIPv6Addresses: false
+2019-02-25 16:57:43,511 DEBUG [container-1] NetUtil: Loopback interface: [lo0, lo0, 0:0:0:0:0:0:0:1%lo0] ([lo0, lo0, 0:0:0:0:0:0:0:1%lo0], {})
+2019-02-25 16:57:43,511 DEBUG [container-1] NetUtil: Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-02-25 16:57:43,513 DEBUG [container-1] DefaultChannelId: -Dio.netty.machineId: 78:7b:8a:ff:fe:e0:69:db (auto-detected)
+2019-02-25 16:57:43,529 DEBUG [container-1] ByteBufUtil: -Dio.netty.allocator.type: pooled
+2019-02-25 16:57:43,529 DEBUG [container-1] ByteBufUtil: -Dio.netty.threadLocalDirectBufferSize: 0
+2019-02-25 16:57:43,530 DEBUG [container-1] ByteBufUtil: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-02-25 16:57:43,545 DEBUG [lettuce-nioEventLoop-4-1] Recycler: -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-02-25 16:57:43,546 DEBUG [lettuce-nioEventLoop-4-1] Recycler: -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-02-25 16:57:43,546 DEBUG [lettuce-nioEventLoop-4-1] Recycler: -Dio.netty.recycler.linkCapacity: 16
+2019-02-25 16:57:43,546 DEBUG [lettuce-nioEventLoop-4-1] Recycler: -Dio.netty.recycler.ratio: 8
+2019-02-25 16:57:43,551 DEBUG [lettuce-nioEventLoop-4-1] AbstractByteBuf: -Dio.netty.buffer.checkAccessible: true
+2019-02-25 16:57:43,551 DEBUG [lettuce-nioEventLoop-4-1] AbstractByteBuf: -Dio.netty.buffer.checkBounds: true
+2019-02-25 16:57:43,551 DEBUG [lettuce-nioEventLoop-4-1] ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@a374e6d
+2019-02-25 16:57:43,566 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x535629fc, [id: 0x2a06c783] (inactive), chid=0x1] channelRegistered()
+2019-02-25 16:57:45,932 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 16:57:50,941 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 16:57:53,575 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 16:57:53,575 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 16:57:53,575 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 16:57:53,575 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0x1] closeAsync()
+2019-02-25 16:57:53,577 ERROR [container-1] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:57:53,578 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x535629fc, [id: 0x2a06c783] (inactive), chid=0x1] channelUnregistered()
+2019-02-25 16:57:55,951 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 16:57:58,580 DEBUG [container-2] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:57:58,580 DEBUG [container-2] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:57:58,581 DEBUG [container-2] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:57:58,582 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x99304323, [id: 0xc823e5ff] (inactive), chid=0x2] channelRegistered()
+2019-02-25 16:57:58,583 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 16:57:58,584 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 16:57:58,584 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 16:57:58,584 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0x2] closeAsync()
+2019-02-25 16:57:58,584 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x99304323, [id: 0xc823e5ff] (inactive), chid=0x2] channelUnregistered()
+2019-02-25 16:57:58,585 ERROR [container-2] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:58:00,961 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 16:58:03,586 DEBUG [container-3] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:03,588 DEBUG [container-3] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:03,588 DEBUG [container-3] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:58:03,590 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x0f461722, [id: 0x384a8e37] (inactive), chid=0x3] channelRegistered()
+2019-02-25 16:58:03,590 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 16:58:03,591 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 16:58:03,591 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 16:58:03,591 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0x3] closeAsync()
+2019-02-25 16:58:03,592 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x0f461722, [id: 0x384a8e37] (inactive), chid=0x3] channelUnregistered()
+2019-02-25 16:58:03,592 ERROR [container-3] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:58:05,972 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 16:58:08,595 DEBUG [container-4] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:08,596 DEBUG [container-4] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:08,596 DEBUG [container-4] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:58:08,598 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x05b408a3, [id: 0x024fda9b] (inactive), chid=0x4] channelRegistered()
+2019-02-25 16:58:10,981 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 16:58:11,340 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E551201000000B00039982AA7268007E00002C359
+2019-02-25 16:58:11,340 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 截断信息：39982AA7268007E0
+2019-02-25 16:58:11,354 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 卡片id: 39982AA7268007E0
+2019-02-25 16:58:11,354 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 卡片di: E0078026A72A9839
+2019-02-25 16:58:18,602 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 16:58:18,602 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 16:58:18,602 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 16:58:18,602 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0x4] closeAsync()
+2019-02-25 16:58:18,603 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x05b408a3, [id: 0x024fda9b] (inactive), chid=0x4] channelUnregistered()
+2019-02-25 16:58:18,603 ERROR [container-4] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:58:23,605 DEBUG [container-5] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:23,606 DEBUG [container-5] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:23,606 DEBUG [container-5] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:58:23,607 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x64da3ffa, [id: 0xe7c80192] (inactive), chid=0x5] channelRegistered()
+2019-02-25 16:58:23,608 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 16:58:23,609 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 16:58:23,609 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 16:58:23,609 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0x5] closeAsync()
+2019-02-25 16:58:23,609 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x64da3ffa, [id: 0xe7c80192] (inactive), chid=0x5] channelUnregistered()
+2019-02-25 16:58:23,609 ERROR [container-5] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:58:28,614 DEBUG [container-6] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:28,614 DEBUG [container-6] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:28,614 DEBUG [container-6] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:58:28,615 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x7c5dd3ad, [id: 0xebd29e9b] (inactive), chid=0x6] channelRegistered()
+2019-02-25 16:58:28,616 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 16:58:28,617 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 16:58:28,617 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 16:58:28,617 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0x6] closeAsync()
+2019-02-25 16:58:28,617 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x7c5dd3ad, [id: 0xebd29e9b] (inactive), chid=0x6] channelUnregistered()
+2019-02-25 16:58:28,617 ERROR [container-6] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:58:33,622 DEBUG [container-7] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:33,623 DEBUG [container-7] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:33,623 DEBUG [container-7] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:58:33,623 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x70161f13, [id: 0x8ec0b9b7] (inactive), chid=0x7] channelRegistered()
+2019-02-25 16:58:43,624 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 16:58:43,625 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 16:58:43,625 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 16:58:43,625 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0x7] closeAsync()
+2019-02-25 16:58:43,625 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x70161f13, [id: 0x8ec0b9b7] (inactive), chid=0x7] channelUnregistered()
+2019-02-25 16:58:43,628 ERROR [container-7] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:58:48,630 DEBUG [container-8] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:48,638 DEBUG [container-8] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:48,638 DEBUG [container-8] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:58:48,639 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x1caa1abf, [id: 0xba1eeccf] (inactive), chid=0x8] channelRegistered()
+2019-02-25 16:58:48,640 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 16:58:48,640 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 16:58:48,640 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 16:58:48,641 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0x8] closeAsync()
+2019-02-25 16:58:48,641 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x1caa1abf, [id: 0xba1eeccf] (inactive), chid=0x8] channelUnregistered()
+2019-02-25 16:58:48,641 ERROR [container-8] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:58:53,644 DEBUG [container-9] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:53,644 DEBUG [container-9] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:53,644 DEBUG [container-9] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:58:53,645 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0xbea242e4, [id: 0x43fb746c] (inactive), chid=0x9] channelRegistered()
+2019-02-25 16:58:53,646 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 16:58:53,648 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 16:58:53,648 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 16:58:53,648 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0x9] closeAsync()
+2019-02-25 16:58:53,648 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0xbea242e4, [id: 0x43fb746c] (inactive), chid=0x9] channelUnregistered()
+2019-02-25 16:58:53,648 ERROR [container-9] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:58:58,650 DEBUG [container-10] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:58,651 DEBUG [container-10] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:58:58,651 DEBUG [container-10] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:58:58,651 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x64328efa, [id: 0x2a1de141] (inactive), chid=0xa] channelRegistered()
+2019-02-25 16:59:08,657 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 16:59:08,657 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 16:59:08,657 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 16:59:08,657 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0xa] closeAsync()
+2019-02-25 16:59:08,657 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x64328efa, [id: 0x2a1de141] (inactive), chid=0xa] channelUnregistered()
+2019-02-25 16:59:08,658 ERROR [container-10] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:59:13,661 DEBUG [container-11] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:13,662 DEBUG [container-11] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:13,662 DEBUG [container-11] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:59:13,662 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x3f45174a, [id: 0x8a0aa43e] (inactive), chid=0xb] channelRegistered()
+2019-02-25 16:59:13,663 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 16:59:13,664 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 16:59:13,664 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 16:59:13,664 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0xb] closeAsync()
+2019-02-25 16:59:13,664 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x3f45174a, [id: 0x8a0aa43e] (inactive), chid=0xb] channelUnregistered()
+2019-02-25 16:59:13,665 ERROR [container-11] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:59:18,668 DEBUG [container-12] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:18,668 DEBUG [container-12] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:18,669 DEBUG [container-12] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:59:18,670 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x03e457f2, [id: 0xbdb63cd7] (inactive), chid=0xc] channelRegistered()
+2019-02-25 16:59:18,670 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 16:59:18,672 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 16:59:18,672 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 16:59:18,672 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0xc] closeAsync()
+2019-02-25 16:59:18,672 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x03e457f2, [id: 0xbdb63cd7] (inactive), chid=0xc] channelUnregistered()
+2019-02-25 16:59:18,673 ERROR [container-12] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:59:23,676 DEBUG [container-13] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:23,677 DEBUG [container-13] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:23,677 DEBUG [container-13] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:59:23,678 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x73b8cf6f, [id: 0x994fc202] (inactive), chid=0xd] channelRegistered()
+2019-02-25 16:59:33,682 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 16:59:33,682 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 16:59:33,682 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 16:59:33,682 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0xd] closeAsync()
+2019-02-25 16:59:33,682 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x73b8cf6f, [id: 0x994fc202] (inactive), chid=0xd] channelUnregistered()
+2019-02-25 16:59:33,682 ERROR [container-13] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:59:38,687 DEBUG [container-14] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:38,687 DEBUG [container-14] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:38,688 DEBUG [container-14] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:59:38,688 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0xc59d7a5d, [id: 0x28bd46f9] (inactive), chid=0xe] channelRegistered()
+2019-02-25 16:59:38,689 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 16:59:38,690 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 16:59:38,690 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 16:59:38,690 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0xe] closeAsync()
+2019-02-25 16:59:38,690 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0xc59d7a5d, [id: 0x28bd46f9] (inactive), chid=0xe] channelUnregistered()
+2019-02-25 16:59:38,692 ERROR [container-14] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:59:43,695 DEBUG [container-15] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:43,695 DEBUG [container-15] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:43,696 DEBUG [container-15] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:59:43,696 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x75b4b211, [id: 0x4e640e7e] (inactive), chid=0xf] channelRegistered()
+2019-02-25 16:59:43,697 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 16:59:43,698 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 16:59:43,698 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 16:59:43,698 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0xf] closeAsync()
+2019-02-25 16:59:43,698 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x75b4b211, [id: 0x4e640e7e] (inactive), chid=0xf] channelUnregistered()
+2019-02-25 16:59:43,698 ERROR [container-15] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:59:48,703 DEBUG [container-16] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:48,703 DEBUG [container-16] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 16:59:48,703 DEBUG [container-16] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 16:59:48,704 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x08118cf1, [id: 0x1cddeba3] (inactive), chid=0x10] channelRegistered()
+2019-02-25 16:59:58,707 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 16:59:58,707 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 16:59:58,707 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 16:59:58,707 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0x10] closeAsync()
+2019-02-25 16:59:58,707 ERROR [container-16] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 16:59:58,708 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x08118cf1, [id: 0x1cddeba3] (inactive), chid=0x10] channelUnregistered()
+2019-02-25 17:00:03,708 DEBUG [container-17] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:03,708 DEBUG [container-17] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:03,708 DEBUG [container-17] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:00:03,710 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x3582debc, [id: 0xee93f540] (inactive), chid=0x11] channelRegistered()
+2019-02-25 17:00:03,711 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:00:03,713 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 17:00:03,713 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 17:00:03,713 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0x11] closeAsync()
+2019-02-25 17:00:03,714 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x3582debc, [id: 0xee93f540] (inactive), chid=0x11] channelUnregistered()
+2019-02-25 17:00:03,719 ERROR [container-17] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:00:08,722 DEBUG [container-18] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:08,722 DEBUG [container-18] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:08,722 DEBUG [container-18] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:00:08,723 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x74bef29b, [id: 0x95a33193] (inactive), chid=0x12] channelRegistered()
+2019-02-25 17:00:08,724 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:00:08,724 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 17:00:08,724 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 17:00:08,725 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0x12] closeAsync()
+2019-02-25 17:00:08,725 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x74bef29b, [id: 0x95a33193] (inactive), chid=0x12] channelUnregistered()
+2019-02-25 17:00:08,725 ERROR [container-18] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:00:13,729 DEBUG [container-19] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:13,730 DEBUG [container-19] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:13,730 DEBUG [container-19] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:00:13,730 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x757e2e3b, [id: 0xa72d757a] (inactive), chid=0x13] channelRegistered()
+2019-02-25 17:00:23,733 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 17:00:23,734 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 17:00:23,734 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 17:00:23,734 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0x13] closeAsync()
+2019-02-25 17:00:23,734 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x757e2e3b, [id: 0xa72d757a] (inactive), chid=0x13] channelUnregistered()
+2019-02-25 17:00:23,735 ERROR [container-19] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:00:28,737 DEBUG [container-20] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:28,738 DEBUG [container-20] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:28,738 DEBUG [container-20] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:00:28,739 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x745d0934, [id: 0xda8923c1] (inactive), chid=0x14] channelRegistered()
+2019-02-25 17:00:28,739 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:00:28,740 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 17:00:28,740 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 17:00:28,740 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0x14] closeAsync()
+2019-02-25 17:00:28,740 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x745d0934, [id: 0xda8923c1] (inactive), chid=0x14] channelUnregistered()
+2019-02-25 17:00:28,741 ERROR [container-20] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:00:33,746 DEBUG [container-21] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:33,746 DEBUG [container-21] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:33,746 DEBUG [container-21] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:00:33,747 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x87e63898, [id: 0xf4df1c06] (inactive), chid=0x15] channelRegistered()
+2019-02-25 17:00:33,747 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:00:33,749 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 17:00:33,749 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 17:00:33,749 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0x15] closeAsync()
+2019-02-25 17:00:33,750 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x87e63898, [id: 0xf4df1c06] (inactive), chid=0x15] channelUnregistered()
+2019-02-25 17:00:33,750 ERROR [container-21] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:00:38,753 DEBUG [container-22] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:38,754 DEBUG [container-22] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:38,754 DEBUG [container-22] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:00:38,756 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0xfd3e38a4, [id: 0x77d8241f] (inactive), chid=0x16] channelRegistered()
+2019-02-25 17:00:48,760 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 17:00:48,772 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 17:00:48,772 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 17:00:48,772 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0x16] closeAsync()
+2019-02-25 17:00:48,772 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0xfd3e38a4, [id: 0x77d8241f] (inactive), chid=0x16] channelUnregistered()
+2019-02-25 17:00:48,773 ERROR [container-22] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:00:53,778 DEBUG [container-23] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:53,778 DEBUG [container-23] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:53,779 DEBUG [container-23] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:00:53,780 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x56e3fc9c, [id: 0xa4ec74bf] (inactive), chid=0x17] channelRegistered()
+2019-02-25 17:00:53,781 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:00:53,782 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 17:00:53,782 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 17:00:53,782 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0x17] closeAsync()
+2019-02-25 17:00:53,783 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x56e3fc9c, [id: 0xa4ec74bf] (inactive), chid=0x17] channelUnregistered()
+2019-02-25 17:00:53,784 ERROR [container-23] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:00:58,789 DEBUG [container-24] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:58,789 DEBUG [container-24] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:00:58,789 DEBUG [container-24] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:00:58,790 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0xb1dbef07, [id: 0xabcdc965] (inactive), chid=0x18] channelRegistered()
+2019-02-25 17:00:58,790 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:00:58,792 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 17:00:58,792 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 17:00:58,792 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0x18] closeAsync()
+2019-02-25 17:00:58,792 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0xb1dbef07, [id: 0xabcdc965] (inactive), chid=0x18] channelUnregistered()
+2019-02-25 17:00:58,793 ERROR [container-24] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:01:24,818 INFO  [main] CardApplication: Starting CardApplication on liujunchideiMac.local with PID 67747 (/Users/liujc/IdeaProjects/card/target/classes started by liujc in /Users/liujc/IdeaProjects/card)
+2019-02-25 17:01:24,820 DEBUG [main] CardApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-02-25 17:01:24,820 INFO  [main] CardApplication: No active profile set, falling back to default profiles: default
+2019-02-25 17:01:25,367 DEBUG [main] InternalLoggerFactory: Using SLF4J as the default logging framework
+2019-02-25 17:01:25,370 DEBUG [main] DefaultClientResources: -Dio.netty.eventLoopThreads: 4
+2019-02-25 17:01:25,375 DEBUG [main] DefaultEventLoopGroupProvider: Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-02-25 17:01:25,395 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.level: simple
+2019-02-25 17:01:25,399 DEBUG [main] ResourceLeakDetector: -Dio.netty.leakDetection.targetRecords: 4
+2019-02-25 17:01:25,414 DEBUG [main] PlatformDependent: Platform: MacOS
+2019-02-25 17:01:25,416 DEBUG [main] PlatformDependent0: -Dio.netty.noUnsafe: false
+2019-02-25 17:01:25,417 DEBUG [main] PlatformDependent0: Java version: 8
+2019-02-25 17:01:25,425 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+2019-02-25 17:01:25,426 DEBUG [main] PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+2019-02-25 17:01:25,427 DEBUG [main] PlatformDependent0: java.nio.Buffer.address: available
+2019-02-25 17:01:25,428 DEBUG [main] PlatformDependent0: direct buffer constructor: available
+2019-02-25 17:01:25,433 DEBUG [main] PlatformDependent0: java.nio.Bits.unaligned: available, true
+2019-02-25 17:01:25,433 DEBUG [main] PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-02-25 17:01:25,433 DEBUG [main] PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+2019-02-25 17:01:25,434 DEBUG [main] PlatformDependent: sun.misc.Unsafe: available
+2019-02-25 17:01:25,435 DEBUG [main] PlatformDependent: -Dio.netty.tmpdir: /var/folders/y5/j716xz0s6x79t7ctcpjdwc1m0000gn/T (java.io.tmpdir)
+2019-02-25 17:01:25,436 DEBUG [main] PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-02-25 17:01:25,437 DEBUG [main] PlatformDependent: -Dio.netty.maxDirectMemory: 3817865216 bytes
+2019-02-25 17:01:25,437 DEBUG [main] PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-02-25 17:01:25,438 DEBUG [main] CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+2019-02-25 17:01:25,438 DEBUG [main] PlatformDependent: -Dio.netty.noPreferDirect: false
+2019-02-25 17:01:25,439 DEBUG [main] ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@328978e0
+2019-02-25 17:01:25,447 DEBUG [main] PlatformDependent: org.jctools-core.MpscChunkedArrayQueue: available
+2019-02-25 17:01:25,453 DEBUG [main] Loggers$LoggerFactory: Using Slf4j logging framework
+2019-02-25 17:01:25,513 DEBUG [main] UnsafeSupport: Starting UnsafeSupport init in Java 1.8
+2019-02-25 17:01:25,514 DEBUG [main] UnsafeSupport: Unsafe is available
+2019-02-25 17:01:25,518 DEBUG [main] DefaultClientResources: LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-02-25 17:01:25,562 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 8
+2019-02-25 17:01:25,562 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 8
+2019-02-25 17:01:25,562 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+2019-02-25 17:01:25,562 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+2019-02-25 17:01:25,563 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+2019-02-25 17:01:25,563 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+2019-02-25 17:01:25,563 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+2019-02-25 17:01:25,563 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+2019-02-25 17:01:25,563 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-02-25 17:01:25,564 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-02-25 17:01:25,564 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+2019-02-25 17:01:25,564 DEBUG [main] PooledByteBufAllocator: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-02-25 17:01:25,566 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-02-25 17:01:25,566 DEBUG [main] InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-02-25 17:01:25,837 DEBUG [container-1] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:01:25,939 INFO  [container-1] EpollProvider: Starting without optional epoll library
+2019-02-25 17:01:25,940 INFO  [container-1] KqueueProvider: Starting without optional kqueue library
+2019-02-25 17:01:25,941 DEBUG [container-1] DefaultEventLoopGroupProvider: Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2019-02-25 17:01:25,941 DEBUG [container-1] DefaultEventLoopGroupProvider: Creating executor io.netty.channel.nio.NioEventLoopGroup
+2019-02-25 17:01:25,942 DEBUG [container-1] MultithreadEventLoopGroup: -Dio.netty.eventLoopThreads: 8
+2019-02-25 17:01:25,945 DEBUG [container-1] NioEventLoop: -Dio.netty.noKeySetOptimization: false
+2019-02-25 17:01:25,945 DEBUG [container-1] NioEventLoop: -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-02-25 17:01:25,950 DEBUG [container-1] DefaultEventLoopGroupProvider: Adding reference to io.netty.channel.nio.NioEventLoopGroup@7046f83f, existing ref count 0
+2019-02-25 17:01:25,960 DEBUG [container-1] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:01:25,961 DEBUG [container-1] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:01:28,086 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:01:30,844 INFO  [main] CardApplication: Started CardApplication in 26.353 seconds (JVM running for 29.556)
+2019-02-25 17:01:30,973 DEBUG [container-1] DefaultChannelId: -Dio.netty.processId: 67747 (auto-detected)
+2019-02-25 17:01:30,975 DEBUG [container-1] NetUtil: -Djava.net.preferIPv4Stack: false
+2019-02-25 17:01:30,975 DEBUG [container-1] NetUtil: -Djava.net.preferIPv6Addresses: false
+2019-02-25 17:01:30,980 DEBUG [container-1] NetUtil: Loopback interface: [lo0, lo0, 0:0:0:0:0:0:0:1%lo0] ([lo0, lo0, 0:0:0:0:0:0:0:1%lo0], {})
+2019-02-25 17:01:30,980 DEBUG [container-1] NetUtil: Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019-02-25 17:01:30,982 DEBUG [container-1] DefaultChannelId: -Dio.netty.machineId: 78:7b:8a:ff:fe:e0:69:db (auto-detected)
+2019-02-25 17:01:31,009 DEBUG [container-1] ByteBufUtil: -Dio.netty.allocator.type: pooled
+2019-02-25 17:01:31,009 DEBUG [container-1] ByteBufUtil: -Dio.netty.threadLocalDirectBufferSize: 0
+2019-02-25 17:01:31,009 DEBUG [container-1] ByteBufUtil: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-02-25 17:01:31,034 DEBUG [lettuce-nioEventLoop-4-1] Recycler: -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-02-25 17:01:31,034 DEBUG [lettuce-nioEventLoop-4-1] Recycler: -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-02-25 17:01:31,034 DEBUG [lettuce-nioEventLoop-4-1] Recycler: -Dio.netty.recycler.linkCapacity: 16
+2019-02-25 17:01:31,034 DEBUG [lettuce-nioEventLoop-4-1] Recycler: -Dio.netty.recycler.ratio: 8
+2019-02-25 17:01:31,040 DEBUG [lettuce-nioEventLoop-4-1] AbstractByteBuf: -Dio.netty.buffer.checkAccessible: true
+2019-02-25 17:01:31,040 DEBUG [lettuce-nioEventLoop-4-1] AbstractByteBuf: -Dio.netty.buffer.checkBounds: true
+2019-02-25 17:01:31,040 DEBUG [lettuce-nioEventLoop-4-1] ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6a5a2787
+2019-02-25 17:01:31,056 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x8c62392e, [id: 0x896c1ddf] (inactive), chid=0x1] channelRegistered()
+2019-02-25 17:01:33,094 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:01:38,105 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:01:41,063 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 17:01:41,064 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 17:01:41,064 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 17:01:41,064 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0x1] closeAsync()
+2019-02-25 17:01:41,065 ERROR [container-1] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:01:41,066 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x8c62392e, [id: 0x896c1ddf] (inactive), chid=0x1] channelUnregistered()
+2019-02-25 17:01:43,115 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:01:46,067 DEBUG [container-2] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:01:46,067 DEBUG [container-2] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:01:46,067 DEBUG [container-2] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:01:46,069 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0xd69a66b6, [id: 0x4e185790] (inactive), chid=0x2] channelRegistered()
+2019-02-25 17:01:46,070 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:01:46,071 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 17:01:46,071 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 17:01:46,071 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0x2] closeAsync()
+2019-02-25 17:01:46,071 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0xd69a66b6, [id: 0x4e185790] (inactive), chid=0x2] channelUnregistered()
+2019-02-25 17:01:46,071 ERROR [container-2] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:01:48,125 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:01:51,073 DEBUG [container-3] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:01:51,074 DEBUG [container-3] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:01:51,074 DEBUG [container-3] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:01:51,076 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x73b8281e, [id: 0x95125ade] (inactive), chid=0x3] channelRegistered()
+2019-02-25 17:01:51,077 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:01:51,080 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 17:01:51,080 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 17:01:51,080 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0x3] closeAsync()
+2019-02-25 17:01:51,080 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x73b8281e, [id: 0x95125ade] (inactive), chid=0x3] channelUnregistered()
+2019-02-25 17:01:51,084 ERROR [container-3] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:01:53,134 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:01:56,085 DEBUG [container-4] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:01:56,085 DEBUG [container-4] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:01:56,086 DEBUG [container-4] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:01:56,088 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x41661e1a, [id: 0x758eaf1e] (inactive), chid=0x4] channelRegistered()
+2019-02-25 17:01:58,144 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:03,155 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:06,094 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 17:02:06,095 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 17:02:06,095 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 17:02:06,096 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0x4] closeAsync()
+2019-02-25 17:02:06,096 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x41661e1a, [id: 0x758eaf1e] (inactive), chid=0x4] channelUnregistered()
+2019-02-25 17:02:06,099 ERROR [container-4] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:02:08,164 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:11,104 DEBUG [container-5] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:11,104 DEBUG [container-5] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:11,104 DEBUG [container-5] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:02:11,107 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0xefe1efdf, [id: 0xca42a787] (inactive), chid=0x5] channelRegistered()
+2019-02-25 17:02:11,107 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:02:11,110 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 17:02:11,110 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 17:02:11,110 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0x5] closeAsync()
+2019-02-25 17:02:11,110 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0xefe1efdf, [id: 0xca42a787] (inactive), chid=0x5] channelUnregistered()
+2019-02-25 17:02:11,110 ERROR [container-5] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:02:13,175 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:16,116 DEBUG [container-6] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:16,116 DEBUG [container-6] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:16,116 DEBUG [container-6] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:02:16,117 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0xef855db1, [id: 0x01e219bb] (inactive), chid=0x6] channelRegistered()
+2019-02-25 17:02:16,117 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:02:16,123 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 17:02:16,124 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 17:02:16,124 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0x6] closeAsync()
+2019-02-25 17:02:16,124 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0xef855db1, [id: 0x01e219bb] (inactive), chid=0x6] channelUnregistered()
+2019-02-25 17:02:16,124 ERROR [container-6] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:02:18,184 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:21,126 DEBUG [container-7] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:21,127 DEBUG [container-7] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:21,127 DEBUG [container-7] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:02:21,128 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0xbfda7752, [id: 0xd3d62ed2] (inactive), chid=0x7] channelRegistered()
+2019-02-25 17:02:23,195 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:28,205 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:31,130 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 17:02:31,130 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 17:02:31,130 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 17:02:31,131 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0x7] closeAsync()
+2019-02-25 17:02:31,131 ERROR [container-7] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:02:31,131 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0xbfda7752, [id: 0xd3d62ed2] (inactive), chid=0x7] channelUnregistered()
+2019-02-25 17:02:33,216 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:36,132 DEBUG [container-8] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:36,132 DEBUG [container-8] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:36,132 DEBUG [container-8] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:02:36,133 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x6d1f81d6, [id: 0x994d486c] (inactive), chid=0x8] channelRegistered()
+2019-02-25 17:02:36,133 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:02:36,134 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 17:02:36,134 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 17:02:36,134 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0x8] closeAsync()
+2019-02-25 17:02:36,135 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x6d1f81d6, [id: 0x994d486c] (inactive), chid=0x8] channelUnregistered()
+2019-02-25 17:02:36,135 ERROR [container-8] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:02:38,224 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:41,135 DEBUG [container-9] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:41,136 DEBUG [container-9] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:41,136 DEBUG [container-9] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:02:41,137 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x4caaadb9, [id: 0x6a78fcc0] (inactive), chid=0x9] channelRegistered()
+2019-02-25 17:02:41,137 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:02:41,138 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 17:02:41,139 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 17:02:41,139 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0x9] closeAsync()
+2019-02-25 17:02:41,139 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0x4caaadb9, [id: 0x6a78fcc0] (inactive), chid=0x9] channelUnregistered()
+2019-02-25 17:02:41,139 ERROR [container-9] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:02:43,235 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:46,145 DEBUG [container-10] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:46,145 DEBUG [container-10] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:02:46,145 DEBUG [container-10] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:02:46,146 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x57038840, [id: 0xdb1ce8d7] (inactive), chid=0xa] channelRegistered()
+2019-02-25 17:02:48,244 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:53,254 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:02:56,150 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 17:02:56,151 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 17:02:56,151 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 17:02:56,151 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0xa] closeAsync()
+2019-02-25 17:02:56,151 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x57038840, [id: 0xdb1ce8d7] (inactive), chid=0xa] channelUnregistered()
+2019-02-25 17:02:56,152 ERROR [container-10] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:02:58,265 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:01,155 DEBUG [container-11] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:01,156 DEBUG [container-11] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:01,156 DEBUG [container-11] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:03:01,157 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x1d9f2d94, [id: 0xd611c309] (inactive), chid=0xb] channelRegistered()
+2019-02-25 17:03:01,157 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:03:01,162 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 17:03:01,162 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 17:03:01,162 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0xb] closeAsync()
+2019-02-25 17:03:01,163 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x1d9f2d94, [id: 0xd611c309] (inactive), chid=0xb] channelUnregistered()
+2019-02-25 17:03:01,164 ERROR [container-11] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:03:03,274 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:06,169 DEBUG [container-12] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:06,169 DEBUG [container-12] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:06,170 DEBUG [container-12] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:03:06,171 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x7be6e7aa, [id: 0xf7a0dbce] (inactive), chid=0xc] channelRegistered()
+2019-02-25 17:03:06,171 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:03:06,174 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 17:03:06,174 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 17:03:06,174 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0xc] closeAsync()
+2019-02-25 17:03:06,174 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x7be6e7aa, [id: 0xf7a0dbce] (inactive), chid=0xc] channelUnregistered()
+2019-02-25 17:03:06,174 ERROR [container-12] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:03:08,285 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:11,180 DEBUG [container-13] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:11,180 DEBUG [container-13] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:11,180 DEBUG [container-13] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:03:11,181 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0xcc5437cd, [id: 0x26bc3851] (inactive), chid=0xd] channelRegistered()
+2019-02-25 17:03:13,294 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:18,303 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:21,185 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 17:03:21,186 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 17:03:21,186 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 17:03:21,186 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0xd] closeAsync()
+2019-02-25 17:03:21,186 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0xcc5437cd, [id: 0x26bc3851] (inactive), chid=0xd] channelUnregistered()
+2019-02-25 17:03:21,186 ERROR [container-13] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:03:23,315 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:26,187 DEBUG [container-14] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:26,188 DEBUG [container-14] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:26,188 DEBUG [container-14] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:03:26,189 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x44b1216e, [id: 0x2cd60d6a] (inactive), chid=0xe] channelRegistered()
+2019-02-25 17:03:26,189 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:03:26,191 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 17:03:26,191 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 17:03:26,191 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0xe] closeAsync()
+2019-02-25 17:03:26,191 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x44b1216e, [id: 0x2cd60d6a] (inactive), chid=0xe] channelUnregistered()
+2019-02-25 17:03:26,191 ERROR [container-14] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:03:28,325 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:31,196 DEBUG [container-15] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:31,196 DEBUG [container-15] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:31,197 DEBUG [container-15] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:03:31,197 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x14926f96, [id: 0x7d06b00d] (inactive), chid=0xf] channelRegistered()
+2019-02-25 17:03:31,198 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:03:31,200 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 17:03:31,200 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 17:03:31,200 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0xf] closeAsync()
+2019-02-25 17:03:31,200 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x14926f96, [id: 0x7d06b00d] (inactive), chid=0xf] channelUnregistered()
+2019-02-25 17:03:31,200 ERROR [container-15] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:03:33,335 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:36,202 DEBUG [container-16] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:36,202 DEBUG [container-16] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:36,202 DEBUG [container-16] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:03:36,203 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0xe0cc278d, [id: 0x6ef536fb] (inactive), chid=0x10] channelRegistered()
+2019-02-25 17:03:38,343 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:43,353 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:46,207 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 17:03:46,207 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 17:03:46,207 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 17:03:46,207 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0x10] closeAsync()
+2019-02-25 17:03:46,208 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0xe0cc278d, [id: 0x6ef536fb] (inactive), chid=0x10] channelUnregistered()
+2019-02-25 17:03:46,208 ERROR [container-16] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:03:48,365 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:51,214 DEBUG [container-17] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:51,214 DEBUG [container-17] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:51,214 DEBUG [container-17] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:03:51,215 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0xc859b474, [id: 0x7ffe69c9] (inactive), chid=0x11] channelRegistered()
+2019-02-25 17:03:51,216 DEBUG [lettuce-nioEventLoop-4-1] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:03:51,223 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: close()
+2019-02-25 17:03:51,223 DEBUG [lettuce-nioEventLoop-4-1] RedisChannelHandler: closeAsync()
+2019-02-25 17:03:51,223 DEBUG [lettuce-nioEventLoop-4-1] DefaultEndpoint: [unknown, epid=0x11] closeAsync()
+2019-02-25 17:03:51,224 DEBUG [lettuce-nioEventLoop-4-1] CommandHandler: [channel=0xc859b474, [id: 0x7ffe69c9] (inactive), chid=0x11] channelUnregistered()
+2019-02-25 17:03:51,224 ERROR [container-17] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:03:53,377 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:03:56,229 DEBUG [container-18] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:56,229 DEBUG [container-18] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:03:56,229 DEBUG [container-18] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:03:56,230 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x4ad93a9b, [id: 0xddf32319] (inactive), chid=0x12] channelRegistered()
+2019-02-25 17:03:56,230 DEBUG [lettuce-nioEventLoop-4-2] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:03:56,231 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: close()
+2019-02-25 17:03:56,231 DEBUG [lettuce-nioEventLoop-4-2] RedisChannelHandler: closeAsync()
+2019-02-25 17:03:56,232 DEBUG [lettuce-nioEventLoop-4-2] DefaultEndpoint: [unknown, epid=0x12] closeAsync()
+2019-02-25 17:03:56,232 DEBUG [lettuce-nioEventLoop-4-2] CommandHandler: [channel=0x4ad93a9b, [id: 0xddf32319] (inactive), chid=0x12] channelUnregistered()
+2019-02-25 17:03:56,233 ERROR [container-18] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:03:58,390 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:04:01,236 DEBUG [container-19] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:04:01,237 DEBUG [container-19] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:04:01,237 DEBUG [container-19] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:04:01,240 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x4c804176, [id: 0xc94fbc77] (inactive), chid=0x13] channelRegistered()
+2019-02-25 17:04:03,399 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:04:08,410 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:04:11,242 DEBUG [lettuce-nioEventLoop-4-3] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.101:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-25 17:04:11,243 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: close()
+2019-02-25 17:04:11,243 DEBUG [lettuce-nioEventLoop-4-3] RedisChannelHandler: closeAsync()
+2019-02-25 17:04:11,243 DEBUG [lettuce-nioEventLoop-4-3] DefaultEndpoint: [unknown, epid=0x13] closeAsync()
+2019-02-25 17:04:11,243 DEBUG [lettuce-nioEventLoop-4-3] CommandHandler: [channel=0x4c804176, [id: 0xc94fbc77] (inactive), chid=0x13] channelUnregistered()
+2019-02-25 17:04:11,245 ERROR [container-19] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:04:13,420 DEBUG [EventThread /dev/tty.usbserial] JSerialComm: 原数据：7E550801000000B1000175
+2019-02-25 17:04:16,248 DEBUG [container-20] RedisClient: Trying to get a Redis connection for: RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:04:16,249 DEBUG [container-20] RedisClient: Resolved SocketAddress 192.168.1.101:6379 using RedisURI [host='192.168.1.101', port=6379]
+2019-02-25 17:04:16,249 DEBUG [container-20] RedisClient: Connecting to Redis at 192.168.1.101:6379
+2019-02-25 17:04:16,250 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x40ef5172, [id: 0xd0f00d93] (inactive), chid=0x14] channelRegistered()
+2019-02-25 17:04:16,250 DEBUG [lettuce-nioEventLoop-4-4] RedisClient: Connecting to Redis at 192.168.1.101:6379: 192.168.1.101:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Host is down: /192.168.1.101:6379
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+	at io.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+	at io.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:312)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:254)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1340)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.ChannelDuplexHandler.connect(ChannelDuplexHandler.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530)
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512)
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:263)
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:252)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Host is down
+	... 32 common frames omitted
+2019-02-25 17:04:16,252 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: close()
+2019-02-25 17:04:16,252 DEBUG [lettuce-nioEventLoop-4-4] RedisChannelHandler: closeAsync()
+2019-02-25 17:04:16,252 DEBUG [lettuce-nioEventLoop-4-4] DefaultEndpoint: [unknown, epid=0x14] closeAsync()
+2019-02-25 17:04:16,252 DEBUG [lettuce-nioEventLoop-4-4] CommandHandler: [channel=0x40ef5172, [id: 0xd0f00d93] (inactive), chid=0x14] channelUnregistered()
+2019-02-25 17:04:16,253 ERROR [container-20] RedisMessageListenerContainer: Connection failure occurred. Restarting subscription task after 5000 ms
+2019-02-25 17:04:17,829 DEBUG [Thread-5] RedisClient: Initiate shutdown ([100, 100, MILLISECONDS], [100, 100, MILLISECONDS], {})

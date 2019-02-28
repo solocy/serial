@@ -1,0 +1,11 @@
+server:
+  port: 9999
+spring:
+  redis:
+    host: 192.168.1.107
+    port: 6379
+    password: videon
+application:
+  ipcip: 192.168.1.185
+  serial: USB
+  channel: card_record
