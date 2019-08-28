@@ -7,13 +7,9 @@ services:
         image: ccr.ccs.tencentyun.com/liujc/card:0.0.2
         volumes:
             - ~/res:/home/work/res
-#            - /dev/tty.usbserial:/dev/tty.usbserial
         environment:
             # - _JAVA_OPTIONS=-Xmx512m -Xms256m
             - TZ=Asia/Shanghai
-#            - APPLICATION_SERIAL=/dev/tty.usbserial
-            - APPLICATION_IPCIP=192.168.1.185
-            - SPRING_REDIS_HOST=192.168.1.107
         ports:
             - 9999:9999
         devices:

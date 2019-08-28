@@ -24,7 +24,7 @@ public class CardApplication {
 
     @Bean
     public void start() {
-        jSerialComm.start(properties.getSerial(),properties.getIpcip());
+        jSerialComm.start(properties.getSerial());
     }
 
 }

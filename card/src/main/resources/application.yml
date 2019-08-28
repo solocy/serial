@@ -6,6 +6,4 @@ spring:
     port: 6379
     password: videon
 application:
-  ipcip: 192.168.1.185
   serial: USB
-  channel: card_record
